@@ -1,0 +1,37 @@
+# Dependencias
+node_modules/
+.pnp
+.pnp.*
+
+# Next.js
+.next/
+out/
+build/
+next-env.d.ts
+
+# Variables de entorno (nunca subir secretos)
+.env
+.env.*
+!.env.example
+
+# TypeScript / ESLint
+*.tsbuildinfo
+.tsbuildinfo
+eslint.config.mjs.bak
+
+# Pruebas y capturas
+artifacts/
+test-results/
+playwright-report/
+blob-report/
+.playwright/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
